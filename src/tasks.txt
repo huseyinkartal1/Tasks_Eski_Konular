@@ -1,0 +1,76 @@
+TASKS
+Task 1: Klavyeden girilen taban (int) ve üs (int) değerlerinin işlem sonucunu
+(üs alma işlemi) ekrana yazdıran Java programını yazınız. (Örn; 2^3=8 gibi.)
+
+Task 2: Klavyeden girilen iki değer arasındaki tüm sayılardan sadece üçe tam
+bölünenleri tespit edip ekrana yazdıran Java programını yazınız.
+
+Task 3: Verilen iki değer arasındaki tam sayıların ikiye tam bölünenlerini
+(çift sayıları) tamsayı dizisi (int[]) olarak geri döndüren metodu yazınız.
+Method: int[] getEvenNumbers(int start, int end)
+
+Task 4: Verilen bir sayının belirli bir aralıkta olup olmadığını sorgulayan
+metot yazınız.
+Method: boolean isNumberBetweenFiftyAndHundred(int number)
+
+Task 5: Verilen sayının aralık dışında olup olmadığını sorgulayan metot yazınız.
+Method: boolean isNumberOutOfRangeFiftyAndHundred(int number)
+
+Task 6: Verilen bir mantıksal dizide kaç tane doğru bulunduğunu döndüren
+metot yazınız.
+Method: int countTrueValues(boolean[] values)
+
+Task 7: Verilen bir karakter dizisini metin olarak döndüren metot yazınız.
+Method: String makeText(char[] values)
+
+Task 8: Verilen bir metni karakter dizisine çeviren metot yazınız.
+Method: char[] convertStringToChars(String text)
+
+Task 9: Verilen bir metindeki harf sayısını taban, kelime sayısını üs olarak
+belirleyiniz. Üs alma işlemini yapıp döndüren metodu yazınız.
+Method: int makePower(String text)
+
+Task 10: Verilen iki tam sayıyı metin olarak birleştiren metodu yazınız.
+Method: String concatNumbers(int a, int b)
+
+Task 11: Verilen satır ve sütun adedince yıldız (*) çizen iki metot tasarlayınız.
+Method 1: void drawStar(int row, int column)
+Örn;    * * * * *
+        *       *
+        *       *
+        *       *
+        * * * * *
+Method 2: void fillStar(int row, int column)
+Örn;    * * * * *
+        * * * * *
+        * * * * *
+        * * * * *
+
+Task 12: Verilen sayı negatif ise -1, pozitif ise 1 ve sıfır ise 0 döndüren
+metodu yazınız.
+Method: int signumFunc(int value)
+
+Task 13: Verilen metin içerisindeki kelimelerin yerini rastgele değiştiren
+bir metot yazınız.
+Method: String shuffleWords(String text)
+
+Task 14: Verilen metin içerisindeki kelimelerin yerini değiştirmeden,
+her bir kelimenin harflerini ters çevirip tam bir metin olarak
+döndüren metodu yazınız.
+Method: String reverseCharsOfEachWords(String text)
+
+Task 15: Verilen tam sayı dizisinin elemanlarının karelerini bir dizi olarak
+döndüren metodu yazınız.
+Method: int[] takeSquare(int[] values)
+
+Task 16: Verilen uzunlukta rastgele parola oluşturan metodu yazınız.
+Sadece A..Z ve a..z arasındaki karakterler kullanılacaktır.
+Method: String generatePassword(int length)
+
+Task 17: 0-100 arasındaki sayılardan rastagele olarak verilen miktarda
+sayı üretip döndüren metodu yazınız.
+Method: int[] generateInteger(int quantity)
+
+Task 18: Verilen aralıktaki sayılardan rastagele olarak verilen miktarda
+sayı üretip döndüren metodu yazınız.
+Method: int[] generateInteger(int start, int end,int quantity)
